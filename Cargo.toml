@@ -1,0 +1,13 @@
+[package]
+
+name = "send_eth"
+version = "0.0.1"
+authors = ["jakubkonka <jakub.konka@strath.ac.uk>"]
+
+[dependencies.rust-csv]
+git = "git://github.com/BurntSushi/rust-csv"
+
+[profile.dev]
+opt-level = 0
+debug = true
+
