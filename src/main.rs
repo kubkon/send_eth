@@ -8,8 +8,8 @@ use std::io::net::udp::UdpSocket;
 use std::io::net::ip::{Ipv4Addr, SocketAddr};
 use std::str::from_utf8;
 
-static PORT: u16 = 8888;
-static UDP_PAYLOAD: uint = 900;
+const PORT: u16 = 8888;
+const UDP_PAYLOAD: uint = 900;
 
 #[deriving(Show,Encodable)]
 struct Record {
